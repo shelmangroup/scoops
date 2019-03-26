@@ -1,16 +1,8 @@
 {
-    "version": "0.2",
+    "version": "1.0",
     "homepage": "https://github.com/shelmangroup/oidc-agent",
     "license": "Apache-2.0",
-    "url": "https://github.com/shelmangroup/oidc-agent/releases/download/v0.2/oidc-agent_windows-amd64.exe#/oidc-agent.exe",
-    "hash": "7920976029ffb5e9e2549f3852e379d14c9457f17ce30dba9fdd5122e9336363",
-    "bin": "oidc-agent.exe",
-    "depends": ["nssm"],
-    "pre_install": [
-        "nssm remove $app confirm"
-    ],
-    "post_install": [
-        "nssm install $app \"$dir\\oidc-agent.exe\" \"server\""
-    ]
-
+    "url": "https://github.com/shelmangroup/oidc-agent/releases/download/v1.0/oidc-agent_windows-amd64.exe#/oidc-agent.exe",
+    "hash": "d0e40a8e3402f8c8a445545ea56f06a5b70b51fa5002e2e6373f2bde31ab0411",
+    "bin": "oidc-agent.exe"
 }

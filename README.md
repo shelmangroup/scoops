@@ -6,4 +6,4 @@ You can start using this bucket by adding it to Scoop
 `scoop bucket add shelmangroup https://github.com/shelmangroup/scoops.git`
 
 ### Scoops
-- [OIDC Agent](https://github.com/shelmangroup/oidc-agent). Installs the OIDC Agent running under [Non-sucking service manager](https://nssm.cc/)
+- [OIDC Agent](https://github.com/shelmangroup/oidc-agent). 
